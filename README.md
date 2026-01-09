@@ -20,3 +20,8 @@
 -lisenssi ____
 
 
+## Projektin laajennus
+
+Tässä tehtävässä toteutin seuraavan laajennuksen: 
+ Lisäsin JavaScript-toiminnallisuuden. Painike "Klikkaa tästä"
+antaa tervetuliaisviestin	
