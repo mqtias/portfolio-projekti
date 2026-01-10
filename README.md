@@ -25,3 +25,7 @@
 Tässä tehtävässä toteutin seuraavan laajennuksen: 
  Lisäsin JavaScript-toiminnallisuuden. Painike "Klikkaa tästä"
 antaa tervetuliaisviestin	
+
+## JULKAISU
+projektin verkkoversio 
+https://mqtias.github.io/portfolio-projekti/
