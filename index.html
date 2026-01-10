@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <header>
-        <img src="img/tausta.jpg" alt="Bannerikuva" style="width:100%;">
-        <h1>Oma portfolio</h1>
-        <p>Lyhyt esittely itsestäni</p>
+    <header class="banner">
+        <div class="overlay">
+            <h1>Oma portfolio</h1>
+            <p>Lyhyt esittely itsestäni</p>
+        </div>
     </header>
 
     <main>
-        <!-- Esittely -->
         <section id="esittely">
-            <h2>Esittely</h2>
-            <img src="img/profiili1.jpg" alt="Profiilikuva" width="300">
-            <p>Olen Matias, 17-vuotias (kohta 18) ja opiskelen.</p>
-
-            <!-- JavaScript-painike -->
+            <h2>Tietoa minusta</h2>
+            <img src="img/profiili1.jpg" alt="Profiilikuva" class="profiilikuva">
+            <p>Olen Matias, 17-vuotias ja opiskelen tieto- ja viestintätekniikkaa</p>
+            <p>Vapaa-ajallani ajelen autollani ja valokuvailen sitä, ja pelailen silloin tällöin.</p>
             <button onclick="naytaTervehdys()">Klikkaa tästä</button>
         </section>
 
-        <!-- Osaaminen -->
         <section id="osaaminen">
             <h2>Osaaminen</h2>
             <ul>
@@ -36,13 +33,11 @@
             </ul>
         </section>
 
-        <!-- Projektit -->
         <section id="projektit">
             <h2>Projektit</h2>
             <p>Tähän tulee kurssin aikana tehtyjä projekteja.</p>
         </section>
 
-        <!-- Yhteystiedot -->
         <section id="yhteystiedot">
             <h2>Yhteystiedot</h2>
             <p>Sähköposti: matiasjamsen2@gmail.com</p>
@@ -53,8 +48,6 @@
         <p>&copy; 2026 Matias Jämsén</p>
     </footer>
 
-    <!-- JavaScript-tiedosto -->
     <script src="js/script.js"></script>
-
 </body>
 </html>
